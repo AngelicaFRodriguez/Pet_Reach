@@ -162,10 +162,17 @@ footer{
 #main_container {
 	font-size:30px;
 	text-align:center;
+	height:2000px;}
 	
+	.article4{
+		height:600px;
 	}
-	.article2{
-	font-size:35px;
-	text-align:left;
-	}
+	.flex_container{
+	display:column;
 }
+	.flex_container2{
+	display:column;
+	}
+	.java{
+		display:column;
+	}}
