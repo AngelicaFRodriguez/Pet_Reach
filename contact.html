@@ -2,9 +2,70 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Contact</title>
+<title>Contact Information</title>
+<link rel="stylesheet" href="https://use.typekit.net/kdv2gnt.css">
+<link rel="stylesheet" href="https://use.typekit.net/kdv2gnt.css">
+<link href="contact.css" rel="stylesheet" type="text/css">
+	<!--jquery starts--> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Droppable - Default functionality</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <style>
+  #draggable { width: 100px; height: 100px; padding: 0.5em; float: left; margin: 10px 10px 10px 0; }
+  #droppable { width: 150px; height: 150px; padding: 0.5em; float: left; margin: 10px; }
+  </style>
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#draggable" ).draggable();
+    $( "#droppable" ).droppable({
+      drop: function( event, ui ) {
+        $( this )
+          .addClass( "ui-state-highlight" )
+          .find( "p" )
+            .html( "Dropped!" );
+      }
+    });
+  } );
+  </script>
+	<!--jquery ends--> 
 </head>
-
+	
+<header class="pet"><img src= "images/pet_reach_logo_illustrator.png" alt= "cat and dog shadow with an orange circle around it" style="float:left" width ="100px" height="90px">Pet <span style="color:#7388DD;">Reach</span></header>
+<nav><ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="animals.html">Dogs</a></li>
+  <li><a href="cats.html">Cats</a></li>
+  <li><a href="about.html">About</a></li>
+  <li><a href="contact.html">Contact</a></li>
+</ul></nav>
 <body>
+<div id="main_container">
+<div class="flex_container">
+		<!--jquery starts--> 
+<div id="draggable" class="ui-widget-content">
+<img id="biscuit" src="images/dog_biscuit.png" alt ="sad cartoon cat when you press the button it turns happy">
+</div>
+<div id="droppable" class="ui-widget-header">
+<img id="dog" src="images/hungry_dog_clear.png" alt ="sad cartoon cat when you press the button it turns happy">
+</div>
+		<!--jquery ends--> 
+<div class="article4"><form>
+<label for="fname">First name:</label><br>
+<input type="text" id="fname" name="fname" placeholder= "Scoobert"><br>
+<label for="lname">Last name:</label><br>
+<input type="text" id="lname" name="lname" placeholder= "Doo"><br>
+<label for="email">Email:</label><br>
+<input type="email" id ="email" name="email" placeholder= "scoobysnacks@petreach.com"><br><br>
+<textarea name="message" style="width:200px; height:200px;"> 
+</textarea><br><br>
+<input class= "submit" type="submit" value="Submit"><br><br>
+</form>
+</div>
+		</div>
+	<div class="article1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, voluptate.</div>
+		</div> 
 </body>
 </html>
