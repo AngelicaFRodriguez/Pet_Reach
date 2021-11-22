@@ -7,7 +7,7 @@ background-size:cover;
 #main_container{
 	width:80%;
 	margin:0 auto;
-	height:2000px;
+	height:auto;
 }
 .flex_container{
 	display:flex;
