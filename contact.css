@@ -7,13 +7,29 @@ background-size:cover;
 #main_container{
 	width:80%;
 	margin:0 auto;
-	height:1000px;
+	height:2000px;
 }
 .flex_container{
 	display:flex;
 	margin:0 auto;
-	height:500px;
+	width:80%;
+	height:670px;
 	flex-direction:row;
+		align-content:center;
+}
+.flex_container2{
+	display:flex;
+	width:80%;
+	margin:0 auto;
+	height:400px;
+	
+}
+.flex_container3{
+	display:flex;
+	width:80%;
+	margin:0 auto;
+	height:300px;
+		align-content:center;
 }
 .pet{
 	text-align:center;
@@ -78,17 +94,31 @@ nav a:active {
 }
 .article1{
 	background-color:rgba(240, 255, 255, 0.8);
+	align-self:center; 
+	align-content:center;
 	text-align:center;
+	width:100%;
     font-size:25px;
 	font-family:utopia-std, serif;
 	font-weight:400;
-	margin-left:30px;
-	margin-right:60px;
 	margin-top:60px;
-	padding-top:10px;
+	margin-bottom:60px;
+	padding-top:20px;
+	padding-bottom:20px;
 	padding-left:20px;
+	padding-right:20px;
 }
-
+.article2{
+	display:column;
+	font-family:utopia-std, serif;
+	font-weight:700;
+	font-style:bold;
+	font-size:40px;
+	padding-left:30px;
+	padding-right:30px;
+	padding-top:120px;
+	text-align:center;
+	width:40%;}
 .article4{
 	width:100%;
 	align-self:right;
@@ -98,9 +128,12 @@ nav a:active {
 	font-weight:400;
 	font-style:normal;
 	font-size:25px;
-	margin-left:60px;
-	margin-right:60px;
-	margin-top:60px;
+	margin: 50px 50px 50px 50px 
+}
+.draggable{
+	display: block;
+  margin-right: auto;
+ width:100%;
 }
 .submit{
 	  background-color:#50b1f5; 
