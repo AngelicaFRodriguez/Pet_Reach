@@ -13,7 +13,7 @@ background-size:cover;
 	display:flex;
 	margin:0 auto;
 	width:80%;
-	height:670px;
+	height:730px;
 	flex-direction:row;
 		align-content:center;
 }
@@ -128,7 +128,7 @@ nav a:active {
 	font-weight:400;
 	font-style:normal;
 	font-size:25px;
-	margin: 50px 50px 50px 50px 
+	margin: 50px 50px 60px 50px 
 }
 .draggable{
 	display: block;
