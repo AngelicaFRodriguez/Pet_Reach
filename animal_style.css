@@ -5,7 +5,7 @@ body{
 #main_container{
 	width:80%;
 	margin:0 auto;
-	height:2000px;
+	height:2100px;
 	background-color:rgb(79, 134, 253,0.3);
 }
 .flex_container{
@@ -27,7 +27,7 @@ body{
 .flex_container4{
 	display:flex;
 	margin:0 auto;
-	height:500px;
+	height:600px;
 }
 .pet{
 	text-align:center;
