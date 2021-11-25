@@ -42,6 +42,7 @@ background-size:cover;
 	color:#FC9850;
 	padding-left:20px;
 	padding-top:10px;
+	text-shadow: 2px 2px 5px lightgray;
 }
 .reach{
 	text-align:center;
@@ -50,6 +51,7 @@ background-size:cover;
 	font-weight:400;
 	font-style:normal;
 	color:#7085DD;
+	text-shadow: 2px 2px 5px lightgray;
 }
 ul {
 	width:100%;
@@ -114,6 +116,7 @@ nav a:active {
 	font-weight:700;
 	font-style:bold;
 	font-size:40px;
+	text-shadow: 2px 2px 5px lightgray;
 	padding-left:30px;
 	padding-right:30px;
 	padding-top:120px;
@@ -152,6 +155,12 @@ nav a:active {
 .button:hover {
   background-color:#FC9850;
   color: white;
+}
+.contact{
+	font-weight:550;
+	font-size:30px;
+	text-aign:left;
+	text-shadow: 2px 2px 5px lightgray;
 }
 #draggable { width: 100px; height: 100px; padding: 0.5em; float: left; margin: 10px 10px 10px 0;}
 #droppable { width: 150px; height: 150px; padding: 0.5em; float: left; margin: 10px; }
